@@ -15,7 +15,7 @@ cat ${templateDir}/Gitignore.default.txt > .gitignore
 echo -e "---\ntitle: \"${PWD##*/}\"" > README.Rmd
 echo "author: \"Keaton Stagaman\"" >> README.Rmd
 echo "date: \"${currDate}\"" >> README.Rmd
-echo -e "output:\n  github_document:\n    toc: true\n    toc_depth: 2\n---\n" >> README.Rmd
+echo -e "output:\n  github_document:\n    toc: true\n    toc_depth: 3\nalways_allow_html: true\n---\n" >> README.Rmd
 cat ${templateDir}/Rmarkdown.default.setupChunk.txt >> README.Rmd
 cp ${templateDir}/packages.R ./
 

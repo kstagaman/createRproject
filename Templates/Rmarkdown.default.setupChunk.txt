@@ -1,8 +1,14 @@
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, results='asis', cache = FALSE)
+knitr::opts_chunk$set(echo = FALSE, results = 'asis', cache = FALSE)
 source("Analysis/00_setup.R")
 
-theme_set(theme_minimal_grid())
+# Graphics packages
+library(autoNumCaptions)
+library(cowplot)
+library(kableExtra)
+
+theme_set(theme_linedraw())
+options(knitr.kable.NA = '')
 
 
 ```

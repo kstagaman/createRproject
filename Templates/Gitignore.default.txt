@@ -11,3 +11,4 @@ Icon*
 *.gsheet
 *.gdoc
 *.pptx
+Saved
